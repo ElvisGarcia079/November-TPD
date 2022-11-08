@@ -1,2 +1,4 @@
-let user = prompt("What is your name? ");
-alert(`Welcome ${user}, and thank you for choosing my App!`);
+// Playing with the Vanilla Document Object Model
+
+let body = document.querySelector("body");
+
