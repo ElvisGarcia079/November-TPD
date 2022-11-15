@@ -15,6 +15,10 @@ let buttonElement = body.appendChild(createButton);
 
 buttonElement.setAttribute("type", "submit");
 
+buttonElement.addEventListener("click", () => {
+    console.log("The button has been clicked!");
+});
+
 
 console.log("The button: ", buttonElement)
 
