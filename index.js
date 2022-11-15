@@ -11,10 +11,12 @@ let createInputField = document.createElement("input");
 
 // Step 3
 let headingElement = body.appendChild(createHeading);
-let buttonElement = body.appendChild(createButton);
 let inputFieldElement = body.appendChild(createInputField);
+let buttonElement = body.appendChild(createButton);
 
 // Step 4
+headingElement.innerHTML = "Welcome to my November Tech PD using Javascript DOM";
+
 
 buttonElement.setAttribute("type", "submit");
 buttonElement.innerHTML = "Submit";
