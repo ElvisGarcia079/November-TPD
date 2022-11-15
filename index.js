@@ -7,11 +7,14 @@ let body = document.querySelector("body");
 // Step 2
 let createHeading = document.createElement("h1");
 let createButton = document.createElement("button");
+let createInputField = document.createElement("input");
 
 // Step 3
-body.appendChild(createHeading);
+let headingElement = body.appendChild(createHeading);
 let buttonElement = body.appendChild(createButton);
+let inputFieldElement = body.appendChild(createInputField);
 
+// Step 4
 
 buttonElement.setAttribute("type", "submit");
 buttonElement.innerHTML = "Submit";
