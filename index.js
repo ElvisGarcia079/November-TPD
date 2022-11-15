@@ -18,11 +18,17 @@ let buttonElement = body.appendChild(createButton);
 headingElement.innerHTML = "Welcome to my November Tech PD using Javascript DOM";
 
 
+// console.log("The value from the input is: ", value);
+inputFieldElement.setAttribute("id", "userInput");
+
+console.log("The input field: ", inputFieldElement);
 buttonElement.setAttribute("type", "submit");
 buttonElement.innerHTML = "Submit";
 
 buttonElement.addEventListener("click", () => {
+    let value = document.querySelector("#userInput").value;
     console.log("The button has been clicked!");
+    console.log("The value from the input is: ", value);
 });
 
 
