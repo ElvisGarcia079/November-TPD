@@ -29,6 +29,7 @@ buttonElement.addEventListener("click", () => {
     let value = document.querySelector("#userInput").value;
     console.log("The button has been clicked!");
     console.log("The value from the input is: ", value);
+    headingElement.innerHTML = `Welcome ${value} to November's TPD! The DOM using Vanilla JS`
 });
 
 
